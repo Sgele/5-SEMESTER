@@ -1,0 +1,51 @@
+album1 = {
+    "_id": 1,
+    "Album_Genre": "Pop",
+    "Album_Title": "Red (Taylor's Version)",
+    "Number": 55,
+    "Tracks": [ {"Track_id" : 1,
+                 "Name": "I Almost Do",
+                 "Duration": 244,
+                 "Streams": 44663455},
+                {"Track_id": 2,
+                 "Name": "Holy Ground",
+                 "Duration": 202,
+                 "Streams": 39994226},
+    ],
+    "Artist_id": "artist1",
+}
+
+album2 = {
+    "_id": 2,
+    "Album_Genre": "R&B",
+    "Album_Title": "DAMN.",
+    "Number": 11,
+    "Tracks": [{"Track_id": 1,
+                "Name": "PRIDE.",
+                "Duration": 275,
+                "Streams": 307666638},
+               {"Track_id": 2,
+                "Name": "FEEL.",
+                "Duration": 214,
+                "Streams": 158045515},
+    ],
+    "Artist_id": "artist2",
+}
+album3 = {
+    "_id": 3,
+    "Album_Genre": "Hip-hop",
+    "Album_Title": "Good Kid, M.A.A.D City",
+    "Number": 123,
+    "Tracks": [{"Track_id": 1,
+                "Name": "good kid",
+                "Duration": 214,
+                "Streams": 71183434},
+               {"Track_id": 2,
+                "Name": "Real",
+                "Duration": 443,
+                "Streams": 58535282},
+    ],
+    "Artist_id": "artist2",
+}
+
+albums = [album1, album2, album3]
